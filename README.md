@@ -32,3 +32,15 @@ When comparing this to the t-tests for each lot, we can see that Lot 1 is very c
 Lot 2 has a t-value of 0.52. So there is some variance, but this could be considered a smaller and acceptable amount.
 
 In Lot 3 however, the t-value is showing way more variance at -2.09. This points to some issue in production and this could lead to safety issues and recalls. 
+
+
+## Study Design: MechaCar vs Competition 
+
+With rising gas prices, several consumers are more fuel efficient mindful than ever. This would be a great way for the MechaCar to get a competitive advantage. 
+
+In this study, we would need data like eco testing, tire alignment retention, aerodynamic testing, and average operating temperatures. These would be our independent variables in order to find our dependent variable which would be fuel efficiency, or mpg.
+
+The null hypothesis would be; MechaCar is competitively fuel efficient when compared to peers. 
+The alternative hypothesis would be; MechaCar is noy competitively fuel efficient when compared to peers.
+
+To find out which is true, we would use a multiple liner regression and see which factors, if any, have the largest effects on fuel efficiency 

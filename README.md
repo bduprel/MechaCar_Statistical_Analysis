@@ -20,3 +20,15 @@ It has been stated to us that the MechaCar suspension coils dictate that the var
 The above image of all manufacturing lots shows that we have a variance of 62.29 in PSI. Well within the 100 PSI required by he manufacturer.
 
 However, when this is broken down a bit further by each lot, we can see that Lot 1 is the most consistent with a variance of 0.97. Lot 2 is also acceptable with a variance of 7.46. But Lot 3 raises concerns with a psi variance of 170.28. 
+
+
+
+ ## T-Tests on Suspension Coils
+![sampleTTest](https://user-images.githubusercontent.com/106126621/191161285-2aa10d5d-f596-45d2-818d-4c650a6e40aa.png)
+The sample t-test is shown above 
+![ttests](https://user-images.githubusercontent.com/106126621/191161292-67ec5333-5069-4eb6-959a-3cef69e94f2b.png)
+When comparing this to the t-tests for each lot, we can see that Lot 1 is very close to the sample production with a t-value of 0. This shows that it is on par with the sample used.
+
+Lot 2 has a t-value of 0.52. So there is some variance, but this could be considered a smaller and acceptable amount.
+
+In Lot 3 however, the t-value is showing way more variance at -2.09. This points to some issue in production and this could lead to safety issues and recalls. 
